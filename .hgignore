@@ -1,0 +1,19 @@
+syntax: glob
+
+Archive
+Info
+Platforms
+mkconfig
+*.tar.gz
+*.zip
+w.*
+*.o
+*.log
+C/*.cache
+C/*.vars
+C/config.h
+C/di.env
+C/di.reqlibs
+C/di
+*~
+dioptions.dat

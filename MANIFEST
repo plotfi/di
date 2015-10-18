@@ -1,0 +1,83 @@
+C/                      C di source
+C/Makefile                C Makefile
+C/configs/                stand-alone configuration files.
+C/configs/config.bsd43.cc   config.h for BSD43
+C/configs/config.bsd43.gcc  config.h for BSD43
+C/configs/config.hpux.bcc   config.h for HP-UX (bundled cc)
+C/configs/config.mingw      config.h for Windows (MinGW)
+C/configs/config.ultrix.cc  config.h for ULTRIX
+C/configs/config.ultrix.gcc config.h for ULTRIX
+C/configs/config.vms        config.h for VMS
+C/configs/config.vms.b      alternate config.h for VMS
+C/configs/config.win        config.h for windows
+C/configs/conf.xenix.cc     config.h for XENIX
+C/di.c                    di source
+C/di.h                    di source
+C/didiskutil.c            di source
+C/digetentries.c          di source
+C/digetinfo.c             di source
+C/dimntopt.h              di source
+C/diquota.c               di source
+C/display.c               di source
+C/display.h               di source
+C/features/               di configuration
+C/features/env.dat          environment configuration
+C/features/getoptn.dat      getoptn test configuration
+C/features/mkconfig.dat     mkconfig configuration
+C/getoptn.c               di source
+C/getoptn.h               di source
+C/options.c               di source
+C/options.h               di source
+C/realloc.c               di source
+C/strdup.c                di source
+C/strstr.c                di source
+C/tests.d/                regression tests for di
+C/tests.d/buildpl.sh
+C/tests.d/compshpl.sh
+C/tests.d/env.sh
+C/tests.d/getoptn.sh
+C/tests.d/getoptn.txt
+C/tests.d/rpmbuild.sh
+C/tests.d/test_order
+C/trimchar.c              di source
+C/version.h               di source
+D/                      D di source
+D/Makefile                D Makefile
+D/d.README                D source README
+D/di.d                    di source
+D/digetoptn.d             di source
+D/dihelp.d                di source
+D/dilocale.d              di source
+D/diquota.d               di source
+D/diskpart.d              di source
+D/display.d               di source
+D/dispopts.d              di source
+D/features/               di configuration
+D/features/env.dat          environment configuration
+D/features/mkconfig.dat     mkconfig configuration
+D/options.d               di source
+LICENSE                 License
+MANIFEST                This file
+Makefile                Top Level Makefile
+README                  Read This
+di.1                    di Manual Page
+di.spec                 rpmspec file
+features/
+features/checkbuild.dat
+features/checkinstall.dat
+features/checkperlbuild.dat
+features/dioptions.dat    di options
+mktar.sh                Creates the tar file
+po/                     internationalization
+po/de.po
+po/en.po
+po/es.po
+tests.d/                  regression tests for di
+tests.d/buildsh.sh
+tests.d/diarg.sh
+tests.d/diexec.sh
+tests.d/diinst.sh
+tests.d/dinls.sh
+tests.d/disort.sh
+tests.d/ditot.sh
+tests.d/test_order
